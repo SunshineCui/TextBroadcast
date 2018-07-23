@@ -122,6 +122,7 @@ public class XunFeiActivity extends AppCompatActivity implements View.OnClickLis
         tempBuffer.append(";");
         //发音人资源
         tempBuffer.append(ResourceUtil.generateResourcePath(getApplicationContext(), ResourceUtil.RESOURCE_TYPE.assets, "tts/"+ voicerLocal +".jet"));
+//        fo|/data/app/com.billy.textbroadcast-2/base.apk|15314892|4307649;fo|/data/app/com.billy.textbroadcast-2/base.apk|20956372|4104654
         return tempBuffer.toString();
     }
 
