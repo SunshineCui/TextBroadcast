@@ -22,7 +22,7 @@
             android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="723号患者请到第四诊室就诊"
+            android:text="Z723号患者请到第Y3诊室就诊"
             android:textSize="14dp"
              />
 
