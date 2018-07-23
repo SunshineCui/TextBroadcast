@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TextBroadcast</string>
+    <string name="app_name">TextToSpeech</string>
+    <string name="xf">科大讯飞</string>
 </resources>

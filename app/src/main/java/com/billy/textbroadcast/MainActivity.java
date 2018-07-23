@@ -1,5 +1,6 @@
 package com.billy.textbroadcast;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.speech.tts.TextToSpeech;
@@ -12,6 +13,9 @@ import com.billy.textbroadcast.databinding.ActivityMainBinding;
 
 import java.util.Locale;
 
+/**
+ * 通过 TextToSpeech 实现文字转语音
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, TextToSpeech.OnInitListener {
 
     private TextToSpeech mTextToSpeech;
@@ -29,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if (v.getId() == R.id.button_main){
             speakOut();
+        }else if (v.getId() == R.id.button_skip){
+            Intent intent = new Intent(this,XunFeiActivity.class);
+            startActivity(intent);
         }
     }
 

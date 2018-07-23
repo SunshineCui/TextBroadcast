@@ -37,5 +37,14 @@
             android:onClick="@{onClick}"
             />
 
+        <Button
+            android:id="@+id/button_skip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="使用科大讯飞"
+            android:onClick="@{onClick}"
+            />
+
     </com.google.android.flexbox.FlexboxLayout>
 </layout>
